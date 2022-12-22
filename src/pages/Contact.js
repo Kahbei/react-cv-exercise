@@ -12,7 +12,7 @@ const Contact = () => {
                     <h1>Contactez moi !</h1>
                     <ul>
                         <li>
-                            <i class="fas fa-map-marker-alt"></i>
+                            <i className="fas fa-map-marker-alt"></i>
                             <span>ESTIAM Lyon</span>
                         </li>
                         <li>
