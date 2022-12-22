@@ -22,39 +22,47 @@ $minHeight: 95vh;
   justify-content: center;
   align-items: center; 
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 body {
   margin: 1rem auto;
   max-width: 1200px; 
   font-family: $font-1;
   background-color: $back;
 }
+
 button {
   cursor: pointer;
 }
+
 li {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
   color: $black;
   cursor: pointer;
 }
+
 a:visited {
   color:$black;
 }
-.home, .knowledges, .portfolio, .contact {
+
+.home, .knowledges, .portfolio, .contact, .formations {
   display: flex;
 
   @media screen and (max-width: 850px){
     display: block !important;
   }
 }
-.homeContent, .knowledgesContent, .portfolioContent, .contactContent {
+
+.homeContent, .knowledgesContent, .portfolioContent, .contactContent, .formationsContent {
   margin-left: .4rem;
 
   @media screen and (max-width: 850px){
