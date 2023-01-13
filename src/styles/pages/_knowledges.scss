@@ -109,7 +109,7 @@
         margin: 0 0 .5rem .5rem;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 10% 1fr 1fr;
+        grid-template-rows: 10% repeat(2,auto);
         grid-template-areas: 
           "1"
           "2"

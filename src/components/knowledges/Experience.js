@@ -24,7 +24,7 @@ const Experience = () => {
         <div className="experience">
             <h3>Experience</h3>
             {experienceData.map((el) => (
-                <SingleExperience id={el.id} experience={el} elnb={experienceData.indexOf(el)} />
+                <SingleExperience key={el.id} experience={el} elnb={experienceData.indexOf(el)} />
             ))}
         </div>
     );

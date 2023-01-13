@@ -18,7 +18,7 @@ const Hobbies = () => {
             <h3>Intérêts</h3>
             <ul>
                 {skillsData.hobbies.map((el) => (
-                    <Hobby id={el.id} hobby={el} />
+                    <Hobby key={el.id} hobby={el} />
                 ))}
             </ul>
         </div>

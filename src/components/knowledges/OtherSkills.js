@@ -31,10 +31,10 @@ const OtherSkills = () => {
         <div className="otherSkills">
             <h3>Autres compétences</h3>
             <div className="list">
-                {softSkillsChunk.map((elList) => (
-                    <ul>
+                {softSkillsChunk.map((elList, index) => (
+                    <ul key={index}>
                         {elList.map((el) => (
-                            <Skill softSkills={el} />
+                            <Skill key={el.id} softSkills={el} />
                         ))}
                     </ul>
                 ))}
