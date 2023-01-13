@@ -8,9 +8,7 @@ const Formations = () => {
         <div className="formations">
             <Navigation />
             <div className="formationsContent">
-                {cursusData.map((el) => (
-                    <CursusList key={el.id} dataFormations={el} />
-                ))}
+                {cursusData.map((el) => <CursusList key={el.id} dataFormations={el} />).reverse()}
             </div>
         </div>
     );

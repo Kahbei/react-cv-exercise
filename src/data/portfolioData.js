@@ -5,7 +5,7 @@ export const portfolioData = [
         languages: ["javascript", "css", "html"],
         languagesIcons: ["fab fa-js", "fab fa-css3-alt", "fab fa-html5"],
         source: "https://wwww.google.com",
-        info: "Information 1",
+        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quam nibh, pulvinar in ipsum faucibus, aliquam egestas risus. Integer id elit a libero consectetur egestas. Maecenas ac accumsan tellus, at semper risus. Mauris eleifend lorem id lectus vulputate consectetur. Vestibulum et nisl vehicula, hendrerit tellus aliquet, convallis orci. Donec imperdiet nisi sed enim tincidunt blandit. Maecenas eleifend vel ipsum ut pellentesque. Morbi at diam tincidunt ex euismod ultricies. Donec vestibulum quam gravida velit consequat, scelerisque laoreet odio consectetur. Nullam at metus eu libero dictum tincidunt. ",
         picture: "./media/project1.jpg",
     },
     {
@@ -14,7 +14,7 @@ export const portfolioData = [
         languages: ["php", "css", "html"],
         languagesIcons: ["fab fa-php", "fab fa-css3-alt", "fab fa-html5"],
         source: "https://wwww.google.com",
-        info: "Information 2",
+        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quam nibh, pulvinar in ipsum faucibus, aliquam egestas risus. Integer id elit a libero consectetur egestas. Maecenas ac accumsan tellus, at semper risus. Mauris eleifend lorem id lectus vulputate consectetur. Vestibulum et nisl vehicula, hendrerit tellus aliquet, convallis orci. Donec imperdiet nisi sed enim tincidunt blandit. Maecenas eleifend vel ipsum ut pellentesque. Morbi at diam tincidunt ex euismod ultricies. Donec vestibulum quam gravida velit consequat, scelerisque laoreet odio consectetur. Nullam at metus eu libero dictum tincidunt. ",
         picture: "./media/project2.jpg",
     },
     {
@@ -23,7 +23,7 @@ export const portfolioData = [
         languages: ["react", "php"],
         languagesIcons: ["fab fa-react", "fab fa-php"],
         source: "https://wwww.google.com",
-        info: "Information 3",
+        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quam nibh, pulvinar in ipsum faucibus, aliquam egestas risus. Integer id elit a libero consectetur egestas. Maecenas ac accumsan tellus, at semper risus. Mauris eleifend lorem id lectus vulputate consectetur. Vestibulum et nisl vehicula, hendrerit tellus aliquet, convallis orci. Donec imperdiet nisi sed enim tincidunt blandit. Maecenas eleifend vel ipsum ut pellentesque. Morbi at diam tincidunt ex euismod ultricies. Donec vestibulum quam gravida velit consequat, scelerisque laoreet odio consectetur. Nullam at metus eu libero dictum tincidunt. ",
         picture: "./media/project3.jpg",
     },
     {
@@ -32,7 +32,7 @@ export const portfolioData = [
         languages: ["react", "css", "html"],
         languagesIcons: ["fab fa-react", "fab fa-css3-alt", "fab fa-html5"],
         source: "https://wwww.google.com",
-        info: "Information 4",
+        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quam nibh, pulvinar in ipsum faucibus, aliquam egestas risus. Integer id elit a libero consectetur egestas. Maecenas ac accumsan tellus, at semper risus. Mauris eleifend lorem id lectus vulputate consectetur. Vestibulum et nisl vehicula, hendrerit tellus aliquet, convallis orci. Donec imperdiet nisi sed enim tincidunt blandit. Maecenas eleifend vel ipsum ut pellentesque. Morbi at diam tincidunt ex euismod ultricies. Donec vestibulum quam gravida velit consequat, scelerisque laoreet odio consectetur. Nullam at metus eu libero dictum tincidunt. ",
         picture: "./media/project4.jpg",
     },
     {
@@ -41,7 +41,7 @@ export const portfolioData = [
         languages: ["php", "css", "html"],
         languagesIcons: ["fab fa-php", "fab fa-css3-alt", "fab fa-html5"],
         source: "https://wwww.google.com",
-        info: "Information 5",
+        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quam nibh, pulvinar in ipsum faucibus, aliquam egestas risus. Integer id elit a libero consectetur egestas. Maecenas ac accumsan tellus, at semper risus. Mauris eleifend lorem id lectus vulputate consectetur. Vestibulum et nisl vehicula, hendrerit tellus aliquet, convallis orci. Donec imperdiet nisi sed enim tincidunt blandit. Maecenas eleifend vel ipsum ut pellentesque. Morbi at diam tincidunt ex euismod ultricies. Donec vestibulum quam gravida velit consequat, scelerisque laoreet odio consectetur. Nullam at metus eu libero dictum tincidunt. ",
         picture: "./media/project5.jpg",
     },
     {
@@ -50,7 +50,7 @@ export const portfolioData = [
         languages: ["javascript", "css", "html"],
         languagesIcons: ["fab fa-js", "fab fa-css3-alt", "fab fa-html5"],
         source: "https://wwww.google.com",
-        info: "Information 6",
+        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quam nibh, pulvinar in ipsum faucibus, aliquam egestas risus. Integer id elit a libero consectetur egestas. Maecenas ac accumsan tellus, at semper risus. Mauris eleifend lorem id lectus vulputate consectetur. Vestibulum et nisl vehicula, hendrerit tellus aliquet, convallis orci. Donec imperdiet nisi sed enim tincidunt blandit. Maecenas eleifend vel ipsum ut pellentesque. Morbi at diam tincidunt ex euismod ultricies. Donec vestibulum quam gravida velit consequat, scelerisque laoreet odio consectetur. Nullam at metus eu libero dictum tincidunt. ",
         picture: "./media/project6.jpg",
     },
 ];

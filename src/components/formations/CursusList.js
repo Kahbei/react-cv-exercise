@@ -4,7 +4,7 @@ const CursusList = (props) => {
     let { school, title, option, year, obtained, mention } = props.dataFormations;
     year = year.includes("now") ? year.replace("now", new Date().getFullYear()) : year;
 
-    const optionCursus = option ? <h3> {option} </h3> : null;
+    const optionCursus = option ? <i class="fas fa-award"></i> : null;
 
     let obtainedDiplomas = "";
 
@@ -19,11 +19,11 @@ const CursusList = (props) => {
     }
 
     return (
-        <div style={{ width: "100px", maxHeight: "300px" }}>
+        <div>
             <h2>{title}</h2>
             {optionCursus}
-            <span>{year}</span>
-            <span>{school}</span>
+            <p>Année : {year}</p>
+            <p>Ecole : {school}</p>
 
             {obtainedDiplomas}
         </div>
