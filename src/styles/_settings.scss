@@ -4,15 +4,15 @@ $font-1: 'Nova Round', cursive;
 $font-2: 'Dosis', sans-serif;
 $font-3: 'Josefin Sans', serif;
 
-$color-1: #FFFFFF;
+$color-1: rgb(33, 33, 33);
 $color-2: #6C77EE;
 // $color-3: rgb(99, 164, 233);
 $color-3: rgb(33, 33, 33);
 $color-4: #4FEDD2;
-$color-5: #36D0EA;
+$color-5: rgb(238, 238, 238);
 $white: #ddd;
 $black: #333;
-$back: #E5EDFC;
+$back: #000;
 
 $borderRadius: 25px;
 $shadow: 0 1px 3px #333;
@@ -34,6 +34,8 @@ body {
   margin: 1rem auto;
   max-width: 1200px; 
   font-family: $font-1;
+  background: url('../../src/media/bg.png') no-repeat;
+  background-size: cover;
   background-color: $back;
 }
 

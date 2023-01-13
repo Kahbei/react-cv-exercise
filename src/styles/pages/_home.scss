@@ -14,7 +14,7 @@
         position: absolute;
         height: 100%;
         width: inherit;
-        background: url('../../media/processeur.jpg') no-repeat center/cover;
+        background: url('../../media/accueil.png') no-repeat center/cover;
         z-index: -1;
         filter: brightness(50%);
       }
@@ -35,13 +35,13 @@
         h2 {
           font-size: 2.5rem;
           padding: 1.5rem 0 7rem;
-          color: $color-3;
+          color: $color-5;
           text-shadow: 1px 4px 1px $black;
         }
         .pdf {
           a {
             font-size: 1.5rem;
-            background: $color-3;
+            background: rgb(251, 140, 0);
             padding: 1rem 2rem;
             border-radius: $borderRadius;
             box-shadow: 0 5px 1px rgb(15, 15, 15);
@@ -63,7 +63,7 @@
   @media screen and (max-width:580px){
     .homeContent {
       &:after {
-      background: url('../../media/processeur.jpg') no-repeat 60% 50%/cover !important;
+      background: url('../../media/accueil.png') no-repeat 60% 50%/cover !important;
       }
       h1 {
         font-size: 3rem !important;
