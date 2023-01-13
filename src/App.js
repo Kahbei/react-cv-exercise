@@ -6,6 +6,7 @@ import Portfolio from "./pages/Portfolio";
 import NotFound from "./pages/NotFound";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Formations from "./pages/Formations";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                     <Route path="/" exact element={<Home />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/competences" element={<Knowledges />} />
+                    <Route path="/formations" element={<Formations />} />
                     <Route path="/portfolio" element={<Portfolio />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
